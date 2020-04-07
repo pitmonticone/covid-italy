@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586266389505.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "24|11|52|0|\n",
+    "hash" : "2600310788",
+    "id" : "F1029049",
+    "lastKnownWriteTime" : 1586268406,
+    "last_content_update" : 1586268406463,
+    "path" : "~/github/covid-italy/references.Rmd",
+    "project_path" : "references.Rmd",
+    "properties" : {
+        "cursorPosition" : "61,6",
+        "scrollLine" : "19",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

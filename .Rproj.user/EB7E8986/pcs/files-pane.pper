@@ -1,0 +1,9 @@
+{
+    "path" : "~/github/covid-italy",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
