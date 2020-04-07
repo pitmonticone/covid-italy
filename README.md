@@ -1,2 +1,7 @@
-# covid-italy
-References for COVID-19 situation in Italy. 
+# COVID-19 Italy
+
+## Team 
+* [Monticone Pietro](https://github.com/pitmonticone)
+* [Valperga Riccardo](https://github.com/Ricvalp)
+
+
