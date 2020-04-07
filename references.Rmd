@@ -105,6 +105,8 @@ knitr::opts_chunk$set(
 * [KCDC](http://ncov.mohw.go.kr/en/)
 
 ## Europe 
+* [ECDC](https://www.ecdc.europa.eu/en/covid-19-pandemic)
+
 ### Sweden
 * [Sweden](https://sweden.se/society/sweden-and-corona-in-brief/)
 
