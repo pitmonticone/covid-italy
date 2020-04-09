@@ -1,8 +1,8 @@
 ---
 title: "Checklist for COVID-19 Testing Data: Italy"
 subtitle: "Answers to Our World in Data"
-author: "Pietro Monticone & Riccardo Valperga"
-date: "`r Sys.Date()` | Turin University"
+author: "P.Monticone (a) & Riccardo Valperga (b)"
+date: "`r Sys.Date()` | (a) Turin University & (b) Imperial College London"
 output:
  prettydoc::html_pretty:
     theme: cayman
