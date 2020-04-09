@@ -32,6 +32,11 @@ Column {.tabset}
 
 ### Experts
 
+* [Ilaria Capua](https://twitter.com/ilariacapua)
+* [Walter Ricciardi](https://twitter.com/WRicciardi)
+* [Roberto Burioni](https://twitter.com/RobertoBurioni)
+* [Pierluigi Lopalco](https://twitter.com/ProfLopalco)
+
 ### Articles & Blog Posts
 
 ### Twitter Threads 

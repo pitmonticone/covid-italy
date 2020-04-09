@@ -56,7 +56,7 @@ knitr::opts_chunk$set(
 
 * [Dov’è veramente il picco dei contagi? Analisi dei dati ISTAT sulla mortalità](https://medium.com/@pmeridian/dovè-veramente-il-picco-dei-contagi-analisi-dei-dati-istat-sulla-mortalità-26bfcab7f155)
 
-#### Francesco Costa 
+#### F.Costa 
 
 * [I dati ufficiali sono un’illusione ottica](https://www.francescocosta.net/2020/03/19/dati-ufficiali-illusione-ottica/)
 * [Il famoso modello italiano](https://www.francescocosta.net/2020/03/30/famoso-modello-italiano/)
@@ -101,6 +101,8 @@ knitr::opts_chunk$set(
 * [](https://sites.google.com/site/alessiapaccagnini/covid19?authuser=0)
 
 # Relevant Literature
+
+* [Preprints from medRxiv and bioRxiv](https://connect.medrxiv.org/relate/content/181)
 
 * [The early phase of the COVID-19 outbreak in Lombardy, Italy](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf)
 
