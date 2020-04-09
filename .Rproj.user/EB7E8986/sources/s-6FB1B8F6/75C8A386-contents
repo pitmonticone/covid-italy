@@ -1,6 +1,6 @@
 ---
 title: "Checklist for COVID-19 Testing Data: Italy"
-subtitle: "Answers for Our World in Data"
+subtitle: "Answers to Our World in Data"
 author: "Pietro Monticone & Riccardo Valperga"
 date: "`r Sys.Date()` | Turin University"
 output:
