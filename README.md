@@ -5,8 +5,4 @@
 * [Monticone Pietro](https://github.com/pitmonticone)
 * [Valperga Riccardo](https://github.com/Ricvalp)
 
-Visit the [website](https://pitmonticone.github.io/covid-italy/owid-testing-italy.html)
-
-
-
-
+Visit the [website](https://pitmonticone.github.io/covid-italy/owid-testing-italy.html).
