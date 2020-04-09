@@ -182,7 +182,7 @@ Yes, all Italian regions and laboratories submit testing data on the same basis 
 
 The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation ($\Delta T_{symptoms}$) and from lab confirmation to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
 
-For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **( *high confidence*, [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **(*high confidence*, [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
 
 ###### **Are there any issues that affect the comparability of the data over time?**
 
