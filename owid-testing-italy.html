@@ -46,89 +46,56 @@ code span.ot { color: #007020; }
 
 <section class="page-header">
 <h1 class="title toc-ignore project-name">Checklist for COVID-19 Testing Data: Italy</h1>
-<h4 class="author project-author">P.Monticone (<strong>a</strong>), Riccardo Valperga (<strong>b</strong>)</h4>
-<h4 class="date project-date">2020-04-09 | (<strong>a</strong>) <em>Turin University</em>, (<strong>b</strong>) <em>Imperial College London</em></h4>
+<h4 class="author project-author"><strong>P.Monticone (a), Riccardo Valperga (b)</strong></h4>
+<h4 class="date project-date">2020-04-10 | (<strong>a</strong>) <em>Turin University</em>, (<strong>b</strong>) <em>Imperial College London</em></h4>
 </section>
 
 
 <div id="TOC" class="toc">
 <ul>
-<li><a href="#owid-checklist-source">OWiD Checklist (<span>source</span>)</a></li>
-<li><a href="#authors">Authors</a></li>
+<li><a href="#owid-checklist"><strong>OWiD Checklist</strong></a></li>
+<li><a href="#authors"><strong>Authors</strong></a></li>
 </ul>
 </div>
 
 <section class="main-content">
-<div id="owid-checklist-source" class="section level1">
-<h1>OWiD Checklist (<a href="https://ourworldindata.org/covid-testing">source</a>)</h1>
-<ol style="list-style-type: decimal">
-<li><strong>Is there any data?</strong></li>
-</ol>
-<p>Yes.</p>
-<ul>
-<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a></li>
-<li><a href="https://www.epicentro.iss.it/coronavirus/">Istituto Superiore di Sanità</a>.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Do numbers refer to ‘performed tests’ or ‘individuals tested’?</strong></li>
-</ol>
-<p>In Italy “swabs” (“tamponi”) refers to <a href="https://github.com/pcm-dpc/COVID-19">“performed tests”</a>: many patients are tested several times (even 5/6 times). In particular, patients who are recovered from COVID-19 are tested at least 3 times (1 positive and 2 negative).</p>
-<p>It should be taken into account the fact that “recovered” (“guariti”) in the official data refers not only to those actually recovered (who tested negative twice), but to all those discharged from hospital.</p>
-<ul>
-<li><a href="https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/">I “guariti” annunciati dalla Protezione Civile ogni giorno non sono tutti guariti, <em>Il Post</em></a></li>
-<li><a href="https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH">GIMBE &amp; YouTrend study, <em>Il Sole 24 Ore</em></a></li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li><strong>Are negative results included? Are pending results included?</strong></li>
-</ol>
-<p>The total number of tests performed includes negative test results, but it doesn’t include the number of tests that are pending results.</p>
-<ul>
-<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a></li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li><strong>Do the figures include all tests conducted in the country, or only some?</strong></li>
-</ol>
-<p>Figures reported by Italy include all tests conducted in all working laboratories of the country.</p>
-<ul>
-<li><a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73444&amp;parte=1%20&amp;serie=null">Ministerial testing protocol, 27-02</a></li>
-<li><a href="https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf">Ministerial testing protocol, 09-03</a></li>
-<li><a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73799&amp;parte=1%20&amp;serie=null">Ministerial testing protocol, 03-04</a></li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li><strong>Are all regions and laboratories within a country submitting data on the same basis?</strong></li>
-</ol>
-<p>Yes, all Italian regions and labs submit testing data on the same basis (i.e. tests performed).</p>
-<ul>
-<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile Github repository</a>.</li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
-<li><strong>What period do the published figures refer to?</strong></li>
-</ol>
-<p>The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation (<span class="math inline">\(\Delta T_{symptoms}\)</span>) and from lab confirmation to official database update (<span class="math inline">\(\Delta T_{lab}\)</span>). For example, in <a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">Lombardy</a> <span class="math inline">\(\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}\)</span> and <span class="math inline">\(\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}\)</span>.</p>
-<ul>
-<li><a href="https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf">Istituto Superiore di Sanità, Bollettino Sorveglianza Integrata</a>.</li>
-<li><a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">The early phase of the COVID-19 outbreak in Lombardy, Italy, <em>arXiv</em></a></li>
-</ul>
-<ol start="7" style="list-style-type: decimal">
-<li><strong>Are there any issues that affect the comparability of the data over time?</strong></li>
-</ol>
-<p>There have been significant changes over time in the ministerial testing protocol.</p>
-<ul>
-<li><a href="https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_8aprile%20ENG.pdf">Istituto Superiore di Sanità, Infographic</a></li>
-<li><a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73444&amp;parte=1%20&amp;serie=null">Ministerial testing protocol, 27-02</a></li>
-<li><a href="https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf">Ministerial testing protocol, 09-03</a></li>
-<li><a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73799&amp;parte=1%20&amp;serie=null">Ministerial testing protocol, 03-04</a></li>
-<li><a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">The early phase of the COVID-19 outbreak in Lombardy, Italy, <em>arXiv</em></a></li>
-</ul>
-<ol start="8" style="list-style-type: decimal">
-<li><strong>What are the typical testing practices in the country?</strong></li>
-</ol>
-<p>Since not all Italian regions follow the ministerial protocol of the central government there is significant regional heterogeneity in testing practices (e.g. Veneto and Lombardia adopted two completely different testing strategies).</p>
-<ul>
-<li><a href="https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/">Quante sono davvero le persone contagiate?, <em>Il Post</em></a></li>
-<li><a href="https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/">La Lombardia non fa tutti i tamponi che dovrebbe, <em>Il Post</em></a></li>
-<li><a href="https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/">La differenza tra il numero di tamponi e il numero delle persone testate, <em>Il Post</em></a></li>
-</ul>
+<div id="owid-checklist" class="section level3">
+<h3><strong>OWiD Checklist</strong></h3>
+<div id="is-there-any-data" class="section level4">
+<h4><strong>Is there any data?</strong></h4>
+<p>Yes. <strong>(<em>high confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>, <a href="https://www.epicentro.iss.it/coronavirus/">ISS</a>)</strong></p>
+</div>
+<div id="do-numbers-refer-to-performed-tests-or-individuals-tested" class="section level4">
+<h4><strong>Do numbers refer to ‘performed tests’ or ‘individuals tested’?</strong></h4>
+<p>In Italy “tamponi” (“swabs”) refers to “performed tests”: many patients are tested several times (even 5 times). <strong>(<em>high confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>)</strong></p>
+<p>In particular, patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. <strong>(<em>high confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>)</strong></p>
+<p>It should be taken into account the fact that “guariti” (“recovered”) in the official data refers not only to those actually recovered (who tested negative twice), but to all those discharged from hospital. <strong>(<em>high confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>, <a href="https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/">IP</a>, <a href="https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH">IS24O</a>)</strong></p>
+</div>
+<div id="are-negative-results-included-are-pending-results-included" class="section level4">
+<h4><strong>Are negative results included? Are pending results included?</strong></h4>
+<p>The total number of performed tests includes negative test results. <strong>(<em>high confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>)</strong></p>
+<p>The total number of performed tests includes those that are pending results. <strong>(<em>low confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>, <a href="https://twitter.com/PietroMonticone/status/1248296225490821120?s=20">PM</a>, <a href="https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf">RP</a>, <a href="https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701">RL</a>)</strong></p>
+</div>
+<div id="do-the-figures-include-all-tests-conducted-in-the-country-or-only-some" class="section level4">
+<h4><strong>Do the figures include all tests conducted in the country, or only some?</strong></h4>
+<p>Figures reported by Italy include all tests conducted in all working laboratories of the country. <strong>(<em>medium confidence</em>, <a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73444&amp;parte=1%20&amp;serie=null">MTP27-02</a>, <a href="https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf">MTP09-03</a>, <a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73799&amp;parte=1%20&amp;serie=null">MTP03-04</a>)</strong></p>
+</div>
+<div id="are-all-regions-and-laboratories-within-a-country-submitting-data-on-the-same-basis" class="section level4">
+<h4><strong>Are all regions and laboratories within a country submitting data on the same basis?</strong></h4>
+<p>Yes, all Italian regions and laboratories submit testing data on the same basis (i.e. “performed tests”). <strong>(<em>medium-high confidence</em> | <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>)</strong></p>
+</div>
+<div id="what-period-do-the-published-figures-refer-to" class="section level4">
+<h4><strong>What period do the published figures refer to?</strong></h4>
+<p>The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation (<span class="math inline">\(\Delta T_{symptoms}\)</span>) and from lab confirmation to official database update (<span class="math inline">\(\Delta T_{lab}\)</span>). <strong>(<em>medium-high confidence</em> | <a href="https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf">ISS</a>)</strong></p>
+<p>For example, in Lombardy <span class="math inline">\(\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}\)</span> and <span class="math inline">\(\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}\)</span>. <strong>( <em>high confidence</em>, <a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">AXV</a>)</strong></p>
+</div>
+<div id="are-there-any-issues-that-affect-the-comparability-of-the-data-over-time" class="section level4">
+<h4><strong>Are there any issues that affect the comparability of the data over time?</strong></h4>
+<p>There have been significant changes over time in the ministerial testing protocol. <strong>(<em>high confidence</em>, <a href="https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_8aprile%20ENG.pdf">ISS</a>, <a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73444&amp;parte=1%20&amp;serie=null">MTP27-02</a>, <a href="https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf">MTP09-03</a>, <a href="http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&amp;codLeg=73799&amp;parte=1%20&amp;serie=null">MTP03-04</a>, <a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">AXV</a>)</strong></p>
+</div>
+<div id="what-are-the-typical-testing-practices-in-the-country" class="section level4">
+<h4><strong>What are the typical testing practices in the country?</strong></h4>
+<p>Not all Italian regions follow the ministerial protocol of the central government, therefore there is significant regional heterogeneity in testing practices. <strong>(<em>high confidence</em>, <a href="https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/">IP</a>, <a href="https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/">IP</a>, <a href="https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/">IP</a>)</strong></p>
 <p>Up to 20-03 we could identify 3 classes of testing practices described by the following pseudocode:</p>
 <p>Consider two patients <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> living in the same house in the region <span class="math inline">\(R \in \{X, Y, Z\}\)</span> such that</p>
 <ul>
@@ -155,18 +122,14 @@ code span.ot { color: #007020; }
 <li>No test to <span class="math inline">\(A\)</span></li>
 <li>No isolation from <span class="math inline">\(A\)</span> because there is no evidence that <span class="math inline">\(B\)</span> is positive despite its symptoms.</li>
 </ul>
-<ol start="9" style="list-style-type: decimal">
-<li><strong>Might any of the information above be lost in translation?</strong></li>
-</ol>
-<p>The most important documents are translated in English by the official sources.</p>
-<ul>
-<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a></li>
-<li><a href="https://www.epicentro.iss.it/coronavirus/">Istituto Superiore di Sanità</a></li>
-<li><a href="http://www.salute.gov.it/portale/home.html">Ministero della Salute</a> .</li>
-</ul>
 </div>
-<div id="authors" class="section level1">
-<h1>Authors</h1>
+<div id="might-any-of-the-information-above-be-lost-in-translation" class="section level4">
+<h4><strong>Might any of the information above be lost in translation?</strong></h4>
+<p>Many important documents released by official sources are translated in English. <strong>(<em>high confidence</em>, <a href="https://github.com/pcm-dpc/COVID-19">DPC</a>, <a href="https://www.epicentro.iss.it/coronavirus/">ISS</a>, <a href="http://www.salute.gov.it/portale/home.html">MDS</a>)</strong></p>
+</div>
+</div>
+<div id="authors" class="section level3">
+<h3><strong>Authors</strong></h3>
 <ul>
 <li>Pietro Monticone (<a href="https://twitter.com/PietroMonticone">Twitter</a>, <a href="https://github.com/pitmonticone">Github</a>)</li>
 <li>Riccardo Valperga (<a href="https://twitter.com/Riccard91650458">Twitter</a>, <a href="https://github.com/Ricvalp">Github</a>)</li>
