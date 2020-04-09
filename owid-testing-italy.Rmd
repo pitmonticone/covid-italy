@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-### **OWiD Checklist**
+## **OWiD Checklist**
 
 #### **Is there any data?**
 
@@ -96,7 +96,7 @@ If $A$ and $B$ live in $Z$:
 
 Many important documents released by official sources are translated in English. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
 
-### **Contacts** 
+## **Contacts** 
 
 * Pietro Monticone ([Twitter](https://twitter.com/PietroMonticone), [Github](https://github.com/pitmonticone))
 * Riccardo Valperga ([Twitter](https://twitter.com/Riccard91650458), [Github](https://github.com/Ricvalp))
