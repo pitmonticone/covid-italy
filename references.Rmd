@@ -49,6 +49,10 @@ knitr::opts_chunk$set(
 
 * [La strategia dei tamponi: criteri, ritardi, criticità in Italia e all’estero](https://www.valigiablu.it/tamponi-coronavirus/)
 
+### TPI 
+
+* [Coronavirus, guida per non farsi ingannare dai numeri: come arrivare preparati alla conferenza stampa delle 18](https://www.tpi.it/cronaca/coronavirus-guida-numeri-conferenza-stampa-18-20200407581306/)
+
 ### Medium 
 
 * [Dov’è veramente il picco dei contagi? Analisi dei dati ISTAT sulla mortalità](https://medium.com/@pmeridian/dovè-veramente-il-picco-dei-contagi-analisi-dei-dati-istat-sulla-mortalità-26bfcab7f155)
