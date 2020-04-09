@@ -59,24 +59,24 @@ code span.ot { color: #007020; }
 </ol>
 <p>Yes.</p>
 <ul>
-<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile Github repository</a></li>
+<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a></li>
 <li><a href="https://www.epicentro.iss.it/coronavirus/">Istituto Superiore di Sanità</a>.</li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Do numbers refer to ‘performed tests’ or ‘individuals tested’?</strong></li>
 </ol>
-<p>In Italy “swabs” (“tamponi”) refers to <a href="https://github.com/pcm-dpc/COVID-19">“performed tests”</a>: the same person is tested multiple times (even 5/6 times). In particular patients who are recovered from COVID-19 are tested at least 3 times (1 positive and 2 negative).</p>
+<p>In Italy “swabs” (“tamponi”) refers to <a href="https://github.com/pcm-dpc/COVID-19">“performed tests”</a>: the same person is tested multiple times (even 5/6 times). In particular, patients who are recovered from COVID-19 are tested at least 3 times (1 positive and 2 negative).</p>
 <p>It should be taken into account the fact that “recovered” (“guariti”) in the official data refers not only to those actually recovered (who tested negative twice), but to all those discharged from hospital.</p>
 <ul>
 <li><a href="https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/">I “guariti” annunciati dalla Protezione Civile ogni giorno non sono tutti guariti, <em>Il Post</em></a></li>
-<li><a href="https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH">GIMBE &amp; YouTrend study</a></li>
+<li><a href="https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH">GIMBE &amp; YouTrend study, <em>Il Sole 24 Ore</em></a></li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
 <li><strong>Are negative results included? Are pending results included?</strong></li>
 </ol>
 <p>The total number of tests performed includes negative test results, but it doesn’t include the number of tests that are pending results.</p>
 <ul>
-<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile Github repository</a></li>
+<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a></li>
 </ul>
 <ol start="4" style="list-style-type: decimal">
 <li><strong>Do the figures include all tests conducted in the country, or only some?</strong></li>
@@ -97,11 +97,11 @@ code span.ot { color: #007020; }
 <ol start="6" style="list-style-type: decimal">
 <li><strong>What period do the published figures refer to?</strong></li>
 </ol>
-<p>The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation (<span class="math inline">\(\Delta T_{symptoms}\)</span>) and from lab confirmation to official database update (<span class="math inline">\(\Delta T_{lab}\)</span>).</p>
+<p>The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation (<span class="math inline">\(\Delta T_{symptoms}\)</span>) and from lab confirmation to official database update (<span class="math inline">\(\Delta T_{lab}\)</span>). For example, in <a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">Lombardy</a> <span class="math inline">\(\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}\)</span> and <span class="math inline">\(\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}\)</span>.</p>
 <ul>
 <li><a href="https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf">Istituto Superiore di Sanità, Bollettino Sorveglianza Integrata</a>.</li>
+<li><a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">The early phase of the COVID-19 outbreak in Lombardy, Italy, <em>arXiv</em></a></li>
 </ul>
-<p>For example, in <a href="https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf">Lombardy</a> <span class="math inline">\(\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}\)</span> and <span class="math inline">\(\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}\)</span></p>
 <ol start="7" style="list-style-type: decimal">
 <li><strong>Are there any issues that affect the comparability of the data over time?</strong></li>
 </ol>
@@ -131,25 +131,32 @@ code span.ot { color: #007020; }
 <li><span class="math inline">\(Y\)</span> makes more tests than those recommended by the <a href="https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf">ministerial document</a> dated 9-03 (e.g. Veneto)</li>
 <li><span class="math inline">\(Z\)</span> makes fewer tests than those recommended by the <a href="https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf">ministerial document</a> dated 9-03 (e.g. Lombardy).</li>
 </ul>
-<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> live in <span class="math inline">\(X \Rightarrow\)</span></p>
-<ol style="list-style-type: decimal">
+<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> live in <span class="math inline">\(X\)</span>:</p>
+<ul>
 <li>ASL sends an ambulance team of health-workers who perform the test on him, but not to <span class="math inline">\(A\)</span> as he does not show any symptoms.</li>
 <li><span class="math inline">\(A\)</span> ends up in isolation, since in contact with a person who is definitely infected.</li>
-</ol>
-<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> live in <span class="math inline">\(Y \Rightarrow\)</span></p>
-<ol style="list-style-type: decimal">
+</ul>
+<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> live in <span class="math inline">\(Y\)</span>:</p>
+<ul>
 <li>Test to <span class="math inline">\(B\)</span></li>
 <li>Test to <span class="math inline">\(A\)</span></li>
 <li>Test to the first and second neighbors (e.g. parents, friends, condominiums) in the hope of finding and isolating all the positives.</li>
-</ol>
-<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> live in <span class="math inline">\(Y \Rightarrow\)</span></p>
-<ol style="list-style-type: decimal">
+</ul>
+<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> live in <span class="math inline">\(Z\)</span>:</p>
+<ul>
 <li>No test to <span class="math inline">\(B\)</span> (unless <span class="math inline">\(B\)</span> needs hospital care)</li>
 <li>No test to <span class="math inline">\(A\)</span></li>
-<li><p>No isolation from <span class="math inline">\(A\)</span> because there is no evidence that <span class="math inline">\(B\)</span> is positive despite its symptoms.</p></li>
-<li><p><strong>Might any of the information above be lost in translation?</strong></p></li>
+<li>No isolation from <span class="math inline">\(A\)</span> because there is no evidence that <span class="math inline">\(B\)</span> is positive despite its symptoms.</li>
+</ul>
+<ol start="9" style="list-style-type: decimal">
+<li><strong>Might any of the information above be lost in translation?</strong></li>
 </ol>
-<p>The most important documents are translated in English by the official sources: * <a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a> * <a href="https://www.epicentro.iss.it/coronavirus/">Istituto Superiore di Sanità</a> * <a href="http://www.salute.gov.it/portale/home.html">Ministero della Salute</a> ).</p>
+<p>The most important documents are translated in English by the official sources.</p>
+<ul>
+<li><a href="https://github.com/pcm-dpc/COVID-19">Protezione Civile</a></li>
+<li><a href="https://www.epicentro.iss.it/coronavirus/">Istituto Superiore di Sanità</a></li>
+<li><a href="http://www.salute.gov.it/portale/home.html">Ministero della Salute</a> .</li>
+</ul>
 </section>
 
 

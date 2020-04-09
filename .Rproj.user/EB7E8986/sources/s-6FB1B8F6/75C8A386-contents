@@ -25,23 +25,23 @@ knitr::opts_chunk$set(
 
 Yes. 
 
-* [Protezione Civile Github repository](https://github.com/pcm-dpc/COVID-19)
+* [Protezione Civile](https://github.com/pcm-dpc/COVID-19)
 * [Istituto Superiore di Sanità](https://www.epicentro.iss.it/coronavirus/).
 
 2. **Do numbers refer to ‘performed tests’ or ‘individuals tested’?**
 
-In Italy "swabs" ("tamponi") refers to ["performed tests"](https://github.com/pcm-dpc/COVID-19): the same person is tested multiple times (even 5/6 times). In particular patients who are recovered from COVID-19 are tested at least 3 times (1 positive and 2 negative).
+In Italy "swabs" ("tamponi") refers to ["performed tests"](https://github.com/pcm-dpc/COVID-19): many patients are tested several times (even 5/6 times). In particular, patients who are recovered from COVID-19 are tested at least 3 times (1 positive and 2 negative).
 
 It should be taken into account the fact that "recovered" ("guariti") in the official data refers not only to those actually recovered (who tested negative twice), but to all those discharged from hospital.
 
 * [I “guariti” annunciati dalla Protezione Civile ogni giorno non sono tutti guariti, *Il Post*](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/)
-* [GIMBE & YouTrend study](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH)
+* [GIMBE & YouTrend study, *Il Sole 24 Ore*](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH)
 
 3. **Are negative results included? Are pending results included?**
 
 The total number of tests performed includes negative test results, but it  doesn't include the number of tests that are pending results.
 
-* [Protezione Civile Github repository](https://github.com/pcm-dpc/COVID-19) 
+* [Protezione Civile](https://github.com/pcm-dpc/COVID-19) 
 
 4. **Do the figures include all tests conducted in the country, or only some?** 
 
@@ -59,11 +59,10 @@ Yes, all Italian regions and labs submit testing data on the same basis (i.e. te
 
 6. **What period do the published figures refer to?**
 
-The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation ($\Delta T_{symptoms}$) and from lab confirmation to official database update ($\Delta T_{lab}$). 
+The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation ($\Delta T_{symptoms}$) and from lab confirmation to official database update ($\Delta T_{lab}$). For example, in [Lombardy](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf) $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. 
 
 * [Istituto Superiore di Sanità, Bollettino Sorveglianza Integrata](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf). 
-
-For example, in [Lombardy](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf) $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$
+* [The early phase of the COVID-19 outbreak in Lombardy, Italy, *arXiv*](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf)
 
 7. **Are there any issues that affect the comparability of the data over time?**
 
@@ -93,26 +92,28 @@ Consider two patients $A$ and $B$ living in the same house in the region $R \in 
 * $Y$ makes more tests than those recommended by the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Veneto)
 * $Z$ makes fewer tests than those recommended by the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Lombardy). 
 
-If $A$ and $B$ live in $X \Rightarrow$
+If $A$ and $B$ live in $X$:
 
-1. ASL sends an ambulance team of health-workers who perform the test on him, but not to $A$ as he does not show any symptoms.
-2. $A$ ends up in isolation, since in contact with a person who is definitely infected.
+  * ASL sends an ambulance team of health-workers who perform the test on him, but not to $A$ as he does not show any symptoms.
+  * $A$ ends up in isolation, since in contact with a person who is definitely infected.
 
-If $A$ and $B$ live in $Y \Rightarrow$
+If $A$ and $B$ live in $Y$:
 
-1. Test to $B$ 
-2. Test to $A$ 
-3. Test to the first and second neighbors (e.g. parents, friends, condominiums) in the hope of finding and isolating all the positives.
+  * Test to $B$ 
+  * Test to $A$ 
+  * Test to the first and second neighbors (e.g. parents, friends, condominiums) in the hope of finding and isolating all the positives.
 
-If $A$ and $B$ live in $Y \Rightarrow$
+If $A$ and $B$ live in $Z$:
 
-1. No test to $B$ (unless $B$ needs hospital care)
-2. No test to $A$
-3. No isolation from $A$ because there is no evidence that $B$ is positive despite its symptoms.
+  * No test to $B$ (unless $B$ needs hospital care)
+  * No test to $A$
+  * No isolation from $A$ because there is no evidence that $B$ is positive despite its symptoms.
+
 
 9. **Might any of the information above be lost in translation?**
 
-The most important documents are translated in English by the official sources: 
+The most important documents are translated in English by the official sources. 
+
 * [Protezione Civile](https://github.com/pcm-dpc/COVID-19)
 * [Istituto Superiore di Sanità](https://www.epicentro.iss.it/coronavirus/)
-* [Ministero della Salute](http://www.salute.gov.it/portale/home.html) ).
+* [Ministero della Salute](http://www.salute.gov.it/portale/home.html) .
