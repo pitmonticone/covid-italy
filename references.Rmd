@@ -22,6 +22,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+
+
+
 # Articles 
 
 ### Il Sole 24 Ore
@@ -64,7 +67,7 @@ knitr::opts_chunk$set(
 * [Non è il momento di dire bugie](https://www.francescocosta.net/2020/04/02/non-e-il-momento-di-dire-bugie/)
 
 
-# Data & Protocols   
+# Data  
 
 ### Data Visualization
 * [WHO](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
@@ -107,7 +110,6 @@ knitr::opts_chunk$set(
 # Video 
 * [COVID 19: Possible Strategies](https://youtu.be/F0J6jWuu3Ao)
 * [COVID-19: Meeting Interdisciplinare | Burgio, Crisanti & Ricci-Tersenghi](https://youtu.be/dpXtTrS0kwE)
-* [COVID-19: Il pianoro che non c'è | Monticone & Valperga](https://youtu.be/iv7-Alh3v88)
 * [PETROLIO: Antivirus (4)](https://youtu.be/Tvm6CbWsv4c)
 * [PETROLIO: Antivirus (5)](https://youtu.be/63sI_kndAZk)
 
