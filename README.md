@@ -1,7 +1,12 @@
-# COVID-19 Italy
+# Checklist for COVID-19 Testing Data: Italy
+## Answers to Our World in Data
 
-## Team 
+### Authors 
 * [Monticone Pietro](https://github.com/pitmonticone)
 * [Valperga Riccardo](https://github.com/Ricvalp)
+
+Visit the [website]()
+
+
 
 
