@@ -44,6 +44,7 @@ The total number of tests performed includes negative test results, but it  does
 * [Protezione Civile Github repository](https://github.com/pcm-dpc/COVID-19) 
 
 4. **Do the figures include all tests conducted in the country, or only some?** 
+
 Figures reported by Italy include all tests conducted in all working laboratories of the country. 
 
 * [Ministerial testing protocol, 27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null)
@@ -111,4 +112,7 @@ If $A$ and $B$ live in $Y \Rightarrow$
 
 9. **Might any of the information above be lost in translation?**
 
-The most important documents are translated in English by the official sources ( [Protezione Civile](https://github.com/pcm-dpc/COVID-19), [Istituto Superiore di Sanità](https://www.epicentro.iss.it/coronavirus/), [Ministero della Salute](http://www.salute.gov.it/portale/home.html) ). 
+The most important documents are translated in English by the official sources: 
+* [Protezione Civile](https://github.com/pcm-dpc/COVID-19)
+* [Istituto Superiore di Sanità](https://www.epicentro.iss.it/coronavirus/)
+* [Ministero della Salute](http://www.salute.gov.it/portale/home.html) ).
