@@ -21,10 +21,6 @@ knitr::opts_chunk$set(
 	warning = FALSE
 )
 ```
-
-
-
-
 # Articles 
 
 ### Il Sole 24 Ore
@@ -102,6 +98,7 @@ knitr::opts_chunk$set(
 # Analyses
 
 * [Francesco Furno](https://www.francescofurno.com/emergenza-covid)
+* [](https://sites.google.com/site/alessiapaccagnini/covid19?authuser=0)
 
 # Relevant Literature
 

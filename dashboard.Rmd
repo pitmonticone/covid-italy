@@ -1,0 +1,73 @@
+---
+title: "COVID-19 Meta-Dashboard"
+#author: ""
+date: "`r Sys.Date()`"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns # or rows
+    # vertical_layout: fill # or scroll
+    # social: [ "twitter", "github", "menu" ]
+    # source_code: embed
+    vertical_layout: fill
+    theme: paper
+    social: [ "twitter", "github", "menu" ]
+    # source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(DT)
+
+library(knitr)
+
+library(tidyverse)
+```
+
+Italy
+=======================================================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Experts
+
+### Articles & Blog Posts
+
+### Twitter Threads 
+
+### Data
+
+### Papers 
+
+### Reports
+
+### Podcasts & Videos
+
+##### Podcasts 
+
+##### Videos 
+
+World
+=======================================================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Experts
+
+### Articles & Blog Posts
+
+### Twitter Threads 
+
+### Data
+
+### Papers 
+
+### Reports
+
+### Podcasts & Videos
+
+##### Podcasts 
+
+##### Videos 
