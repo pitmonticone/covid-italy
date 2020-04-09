@@ -96,11 +96,13 @@ Column {.tabset}
 
 * [Can Italy finally start the dance to control Coronavirus?](https://medium.com/network-science/can-italy-finally-start-the-dance-to-control-coronavirus-55c43ad0c7dd)
 
-Data & Reports 
+Data 
 =======================================================================
 
 Column {.tabset}
 -----------------------------------------------------------------------
+
+### Reports 
 
 ##### Istituto Superiore di Sanità | National Institute of Health
 * **Dati epidemiologici | Epidemiologial data**
@@ -127,7 +129,7 @@ Column {.tabset}
 ##### Dipartimento Protezione Civile | Civil Protection Agency
 
 
-##### Data Visualization
+### Visualization
 * [World Health Organization](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
 * [Dipartimento Protezione Civile](http://arcg.is/C1unv)
 * [Lab 24](https://lab24.ilsole24ore.com/coronavirus/)
