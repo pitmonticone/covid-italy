@@ -1,7 +1,7 @@
 ---
 title: "Checklist for COVID-19 Testing Data: Italy"
 #subtitle: "Answers to Our World in Data"
-author: "**P.Monticone (a), Riccardo Valperga (b)**"
+author: "**Pietro Monticone (a), Riccardo Valperga (b)**"
 date: "`r Sys.Date()` | (**a**) *Turin University*, (**b**) *Imperial College London*"
 output:
  prettydoc::html_pretty:
@@ -54,15 +54,15 @@ Yes, all Italian regions and laboratories submit testing data on the same basis 
 
 The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation ($\Delta T_{symptoms}$) and from lab confirmation to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
 
-For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **( *high confidence*, [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **( *high confidence* | [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
 
 #### **Are there any issues that affect the comparability of the data over time?**
 
-There have been significant changes over time in the ministerial testing protocol. **(*high confidence*, [ISS](https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_8aprile%20ENG.pdf), [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null), [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+There have been significant changes over time in the ministerial testing protocol. **(*high confidence* | [ISS](https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_8aprile%20ENG.pdf), [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null), [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
 
 #### **What are the typical testing practices in the country?**
 
-Not all Italian regions follow the ministerial protocol of the central government, therefore there is significant regional heterogeneity in testing practices. **(*high confidence*, [IP](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/), [IP](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/), [IP](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/))**
+Not all Italian regions follow the ministerial protocol of the central government, therefore there is significant regional heterogeneity in testing practices. **(*high confidence* | [IP](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/), [IP](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/), [IP](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/))**
 
 Up to 20-03 we could identify 3 classes of testing practices described by the following pseudocode:
 
@@ -94,9 +94,9 @@ If $A$ and $B$ live in $Z$:
 
 #### **Might any of the information above be lost in translation?**
 
-Many important documents released by official sources are translated in English. **(*high confidence*, [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
+Many important documents released by official sources are translated in English. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
 
-### **Authors** 
+### **Contacts** 
 
 * Pietro Monticone ([Twitter](https://twitter.com/PietroMonticone), [Github](https://github.com/pitmonticone))
 * Riccardo Valperga ([Twitter](https://twitter.com/Riccard91650458), [Github](https://github.com/Ricvalp))
