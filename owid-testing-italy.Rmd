@@ -54,7 +54,7 @@ Yes, all Italian regions and laboratories submit testing data on the same basis 
 
 The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to the date of diagnosis ($\Delta T_{symptoms}$) and from the date of diagnosis to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
 
-The median delay elapsed between the symptom onset and the date of diagnosis is 
+The median delay between the symptom onset and the date of diagnosis is 
 
 * 3 days for the period 20/02-29/02 (calculated on 1,609 cases);
 * 5 days for the period 01/03-20/03 (37,060 cases);
