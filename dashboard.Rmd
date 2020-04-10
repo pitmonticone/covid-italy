@@ -128,6 +128,12 @@ Column {.tabset}
 
 ##### Dipartimento Protezione Civile | Civil Protection Agency
 
+##### Centre for Mathematical Modelling of Infectious Diseases
+
+* [Using a delay-adjusted case fatality ratio to estimate under-reporting](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html)
+* [Temporal variation in transmission during the COVID-19 outbreak in Italy](https://cmmid.github.io/topics/covid19/current-patterns-transmission/italy-time-varying-transmission.html)
+
+
 
 ### Visualization
 * [World Health Organization](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
