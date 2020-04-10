@@ -165,29 +165,36 @@ Column {.tabset}
 
 
 ### Visualization
+
 * [World Health Organization](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
 * [Dipartimento Protezione Civile](http://arcg.is/C1unv)
 * [Lab 24](https://lab24.ilsole24ore.com/coronavirus/)
 
-* [Italy’s Virus Shutdown Came Too Late. What Happens Now?, *NYT*](https://www.nytimes.com/interactive/2020/04/05/world/europe/italy-coronavirus-lockdown-reopen.html)
+#### **Tamponi | Performed tests**
 
-**Deaths**
-
-<iframe src="https://ourworldindata.org/grapher/total-daily-covid-deaths?country=ITA" style="width: 100%; height: 550px; border: 0px none;"></iframe>
-
-
-**Testing**
-Without widespread testing for COVID-19 we can neither know how the pandemic is spreading nor appropriately respond to it.
+<iframe src="https://ourworldindata.org/grapher/full-list-total-tests-for-covid-19?time=34..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-thousand?time=34..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/full-list-covid-19-tests-per-day?time=35..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/full-list-daily-covid-19-tests-per-thousand?time=35..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 
 
-**Cases**
-The total number of COVID-19 cases is not known. It is however certain that the total number of COVID-19 cases is higher than the number of known confirmed cases. This is mainly due to limited testing.
-Just as we do for deaths, we focus on the growth rate of confirmed cases. We present a sortable table that lists how fast the number of confirmed cases is doubling.
-In interactive charts we present the data on confirmed cases over time in all countries in the world.
+#### **Casi confermati | Confirmed cases**
+
+#### **Morti confermate | Confirmed deaths**
+
+<iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/total-daily-covid-deaths?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/daily-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-3-day-average?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-deaths-since-5th-death" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-daily-deaths-epidemiological-trajectory" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 
 ### Documentation 
 
-##### Checklist for COVID-19 Testing Data: **Italy**
+##### Tamponi | Testing
 
 ###### **Is there any data?**
 
@@ -266,6 +273,12 @@ If $A$ and $B$ live in $Z$:
 ###### **Might any of the information above be lost in translation?**
 
 Many important documents released by official sources are translated in English. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
+
+##### Casi confermati | Confirmed cases 
+
+##### Casi guariti | Recovered cases 
+
+##### Casi deceduti | Deceased cases 
 
 Social 
 =======================================================================
