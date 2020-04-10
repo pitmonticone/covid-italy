@@ -204,7 +204,7 @@ Column {.tabset}
 
 ### Documentation 
 
-##### Tamponi | Testing
+#### Tamponi | Testing
 
 ###### **Is there any data?**
 
@@ -284,11 +284,11 @@ If $A$ and $B$ live in $Z$:
 
 Many important documents released by official sources are translated in English. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
 
-##### Casi confermati | Confirmed cases 
+#### Casi confermati | Confirmed cases 
 
-##### Casi guariti | Recovered cases 
+#### Casi guariti | Recovered cases 
 
-##### Casi deceduti | Deceased cases 
+#### Casi deceduti | Deceased cases 
 
 Social 
 =======================================================================
