@@ -166,9 +166,11 @@ Column {.tabset}
 
 ### Visualization
 
+#### **Dashboards**
 * [World Health Organization](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
 * [Dipartimento Protezione Civile](http://arcg.is/C1unv)
 * [Lab 24](https://lab24.ilsole24ore.com/coronavirus/)
+* [F.Mossotto](https://datastudio.google.com/u/0/reporting/91350339-2c97-49b5-92b8-965996530f00/page/RdlHB)
 
 #### **Tamponi | Performed tests**
 
@@ -178,13 +180,21 @@ Column {.tabset}
 <iframe src="https://ourworldindata.org/grapher/full-list-covid-19-tests-per-day?time=35..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 <iframe src="https://ourworldindata.org/grapher/full-list-daily-covid-19-tests-per-thousand?time=35..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 
-
 #### **Casi confermati | Confirmed cases**
+
+<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/total-and-daily-cases-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/daily-cases-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/daily-covid-cases-3-day-average?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br> 
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-daily-cases-epidemiological-trajectory" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 
 #### **Morti confermate | Confirmed deaths**
 
-<iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 <iframe src="https://ourworldindata.org/grapher/total-daily-covid-deaths?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 <br>
 <iframe src="https://ourworldindata.org/grapher/daily-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
 <iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-3-day-average?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
