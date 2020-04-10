@@ -24,21 +24,17 @@ library(tidyverse)
 Sidebar {.sidebar}
 =====================================
 
-##### Description 
-sssssssssssssssss
-ssssssssssssssssss
-sssssssssssssssss
-ssssssssssssssssss
-ssssssssssssssssss
-ssssssssssssssssssss
-sssssssssssssssssss
-sssssssssssssssssss
-sssssssssssssssssss
-sssssssssssssssss
-ssssssssssssssssss
-ssssssssssssssss
+##### Brief History
 
+Il 31 gennaio 2020, il Consiglio dei Ministri dichiara lo stato di emergenza, per la durata di sei mesi, in conseguenza del rischio sanitario connesso all'infezione da Coronavirus.
 
+Al Capo del Dipartimento della Protezione Civile, Angelo Borrelli, è affidato il coordinamento degli interventi necessari a fronteggiare l'emergenza sul territorio nazionale.
+
+Le principali azioni coordinate dal Capo del Dipartimento sono volte al soccorso e all'assistenza della popolazione eventualmente interessata dal contagio, al potenziamento dei controlli nelle aree aeroportuali e portuali, in continuità con le misure urgenti già adottate dal Ministero della salute, al rientro in Italia dei cittadini che si trovano nei Paesi a rischio e al rimpatrio dei cittadini stranieri nei Paesi di origine esposti al rischio.
+
+##### Description
+
+A dashboard of (almost) all socially relevant references.
 
 ##### Authors 
 
@@ -133,8 +129,6 @@ Column {.tabset}
 * [Using a delay-adjusted case fatality ratio to estimate under-reporting](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html)
 * [Temporal variation in transmission during the COVID-19 outbreak in Italy](https://cmmid.github.io/topics/covid19/current-patterns-transmission/italy-time-varying-transmission.html)
 
-
-
 ### Visualization
 * [World Health Organization](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
 * [Dipartimento Protezione Civile](http://arcg.is/C1unv)
@@ -187,6 +181,12 @@ Yes, all Italian regions and laboratories submit testing data on the same basis 
 ###### **What period do the published figures refer to?**
 
 The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation ($\Delta T_{symptoms}$) and from lab confirmation to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+
+The median delay between the symptom onset and the date of diagnosis is 
+
+* 3 days for the period 20/02-29/02 (calculated on 1,609 cases);
+* 5 days for the period 01/03-20/03 (37,060 cases);
+* 6 days from March 21/03-06/04 (27,637 cases). **(*high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
 
 For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **(*high confidence* | [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
 

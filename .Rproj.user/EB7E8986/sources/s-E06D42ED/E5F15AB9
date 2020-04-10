@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "E5F15AB9",
-    "lastKnownWriteTime" : 1586472678,
-    "last_content_update" : 1586472678635,
+    "lastKnownWriteTime" : 1586508663,
+    "last_content_update" : 1586508663278,
     "path" : "~/github/covid-italy/owid-testing-italy.Rmd",
     "project_path" : "owid-testing-italy.Rmd",
     "properties" : {
-        "cursorPosition" : "98,1",
-        "scrollLine" : "0",
+        "cursorPosition" : "56,16",
+        "scrollLine" : "48",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
