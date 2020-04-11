@@ -40,7 +40,7 @@ It should be taken into account the fact that "guariti" ("recovered") in the off
 
 The total number of performed tests includes negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
-The total number of performed tests includes those that are pending results. **(*low-medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701))**
+The total number of performed tests includes those that are pending results. **(*medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701), Ministry of Health explicitly told us "*'tamponi' refers to total performed tests including those that are pending results*" via phone call)**
 
 #### **Do the figures include all tests conducted in the country, or only some?**
 

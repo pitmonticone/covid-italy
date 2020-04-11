@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1673725588",
+    "hash" : "0",
     "id" : "3CD7CADD",
-    "lastKnownWriteTime" : 1586610490,
-    "last_content_update" : 1586610490635,
+    "lastKnownWriteTime" : 1586610939,
+    "last_content_update" : 1586610939155,
     "path" : "~/github/covid-italy/dashboard.Rmd",
     "project_path" : "dashboard.Rmd",
     "properties" : {
-        "cursorPosition" : "226,91",
+        "cursorPosition" : "226,77",
         "scrollLine" : "221",
         "tempName" : "Untitled1"
     },
