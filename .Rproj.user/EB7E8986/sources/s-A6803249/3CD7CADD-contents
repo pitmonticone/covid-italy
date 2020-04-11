@@ -214,25 +214,25 @@ Yes. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](ht
 
 ###### **Do numbers refer to ‘performed tests’ or ‘individuals tested’?**
 
-In Italy "tamponi" ("swabs") refers to "performed tests": many patients are tested several times (even 5 times). **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+"Tamponi" ("swabs") refers to "performed tests": many patients are tested several times (even 5 times). **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
-In particular, patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
-It should be taken into account the fact that "guariti" ("recovered") in the official data refers not only to those actually recovered (who tested negative twice), but to all those discharged from hospital. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [IP](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/), [IS24O](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH))**
+"Guariti" ("recovered") in the official data refers not only to those actually recovered (i.e. who tested negative twice), but to all those discharged from hospital. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [IP](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/), [IS24O](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH))**
 
 ###### **Are negative results included? Are pending results included?**
 
 The total number of performed tests includes negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
-The total number of performed tests includes those that are pending results. **(*medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701), Ministry of Health explicitly told us "*'tamponi' refers to total performed tests including those that are pending results*" via phone call)**
+The total number of performed tests includes those that are pending results. **(*medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701), [TW](https://twitter.com/PietroMonticone/status/1249011420404027392?s=20))**
 
 ###### **Do the figures include all tests conducted in the country, or only some?**
 
-Figures reported by Italy include all tests conducted in all working laboratories of the country. **(*medium-high confidence* | [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null))**
+Figures reported by Italian authorities include all tests conducted in all working laboratories of the country. **(*medium-high confidence* | [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null))**
 
 ###### **Are all regions and laboratories within a country submitting data on the same basis?**
 
-Yes, all Italian regions and laboratories submit testing data on the same basis (i.e. "performed tests"). **(*medium-high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+All Italian regions and laboratories submit testing data on the same basis (i.e. "performed tests"). **(*medium-high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
 ###### **What period do the published figures refer to?**
 
@@ -286,48 +286,7 @@ Many important documents released by official sources are translated in English.
 
 #### Casi confermati | Confirmed cases 
 
+
 #### Casi guariti | Recovered cases 
 
 #### Casi deceduti | Deceased cases 
-
-Social 
-=======================================================================
-
-Column {.tabset}
------------------------------------------------------------------------
-
-### Institutions
-
-* [Ministero della Salute](https://twitter.com/MinisteroSalute)
-* [Istituto Superiore di Sanità](https://twitter.com/istsupsan)
-* [Dipartimento Protezione Civile](https://twitter.com/DPCgov)
-* [Palazzo Chigi](https://twitter.com/Palazzo_Chigi)
-* [Istat](https://twitter.com/istat_it)
-
-
-### Experts 
-
-* [Ilaria Capua](https://twitter.com/ilariacapua)
-* [Walter Ricciardi](https://twitter.com/WRicciardi)
-* [Roberto Burioni](https://twitter.com/RobertoBurioni)
-* [Pierluigi Lopalco](https://twitter.com/ProfLopalco)
-
-* [Alessandro Vespignani](https://twitter.com/alexvespi)
-* [Vittoria Colizza](https://twitter.com/vcolizza)
-* [Michele Tizzoni](https://twitter.com/mtizzoni)
-* [Michele Starnini](https://twitter.com/m_starnini)
-
-Audio & Video 
-=======================================================================
-
-Column {.tabset}
------------------------------------------------------------------------
-
-### Channels
-
-* [Ministero della Salute](https://www.youtube.com/user/MinisteroSalute)
-* [Istituto Superiore di Sanità](https://www.youtube.com/user/istsupsan)
-* [Dipartimento Protezione Civile](https://www.youtube.com/channel/UC4fru33Tzpu0UhCIHChiNFA)
-* [Palazzo Chigi](https://www.youtube.com/user/governoit)
-
-### Videos
