@@ -82,13 +82,15 @@ Column {.tabset}
 
 ##### Lockdown 
 
-###### Italia | Italy  
+###### **Italia | Italy**
 
 * [Il famoso modello italiano | *F.Costa*](https://www.francescocosta.net/2020/03/30/famoso-modello-italiano/)
 * [Italy’s Virus Shutdown Came Too Late. What Happens Now? | *The New York Times*](https://www.nytimes.com/interactive/2020/04/05/world/europe/italy-coronavirus-lockdown-reopen.html)
 * [Lessons from Italy’s Response to Coronavirus | *Harvard Business review*](https://hbr.org/2020/03/lessons-from-italys-response-to-coronavirus)
 
-###### Corea del Sud | South Korea
+* [Decreti Covid-19: in marzo evitati almeno 200mila ricoveri | *Università Ca'Foscari Venezia*](https://www.unive.it/pag/14024/?tx_news_pi1%5Bnews%5D=8829&cHash=d96192d9853e97c7b6b6e606e10b8ca4)
+
+###### **Corea del Sud | South Korea**
 
 * [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
 * [In Corea del Sud si vota, addirittura | *Il Post*](https://www.ilpost.it/2020/04/10/elezioni-corea-del-sud-coronavirus/)
@@ -222,7 +224,7 @@ It should be taken into account the fact that "guariti" ("recovered") in the off
 
 The total number of performed tests includes negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
-The total number of performed tests includes those that are pending results. **(*low confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701))**
+The total number of performed tests includes those that are pending results. **(*low-medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701))**
 
 ###### **Do the figures include all tests conducted in the country, or only some?**
 
