@@ -2,7 +2,7 @@
 title: "COVID-19: General References"
 #subtitle: "Notes"
 author: "**P. Monticone (a) | R. Valperga (b) | F. Furno (c)**"
-date: "`r Sys.Date()`, (**a**) *Turin University* | (**b**) *Imperial College London | (**c**) *New York University*"
+date: "`r Sys.Date()`, (**a**) *Turin University* | (**b**) *Imperial College London* | (**c**) *New York University*"
 output:
  prettydoc::html_pretty:
     theme: cayman
@@ -21,6 +21,14 @@ knitr::opts_chunk$set(
 	warning = FALSE
 )
 ```
+
+**Things to do**
+
+1. metterei una scritta all'inizio dove invitiamo la gente a segnalare le loro analisi, cosi loro le mandano a noi
+2. metterei le date negli articoli
+3. dobbiamo cercare il modo di sintetizzare le info... gia' cosi' e' fatica, c'e' troppa roba. Stesso problema della Paccagnini
+
+
 # Articles 
 ### Data Quality
 
