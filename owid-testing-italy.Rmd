@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-## **OWiD Checklist**
+## **Checklist**
 
 #### **Is there any data?**
 
