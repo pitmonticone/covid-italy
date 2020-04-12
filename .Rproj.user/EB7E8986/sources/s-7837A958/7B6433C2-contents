@@ -24,10 +24,9 @@ knitr::opts_chunk$set(
 
 **Things to do**
 
-1. metterei una scritta all'inizio dove invitiamo la gente a segnalare le loro analisi, cosi loro le mandano a noi
-2. metterei le date negli articoli
-3. dobbiamo cercare il modo di sintetizzare le info... gia' cosi' e' fatica, c'e' troppa roba. Stesso problema della Paccagnini
-
+1. mettere una scritta all'inizio dove invitiamo la gente a segnalare le loro analisi, cosi loro le mandano a noi
+2. mettere le date negli articoli
+3. cercare il modo di sintetizzare le info... gia' cosi' e' fatica, c'e' troppa roba. 
 
 # Articles 
 ### Data Quality
@@ -151,19 +150,3 @@ knitr::opts_chunk$set(
 * [Preprints from medRxiv and bioRxiv](https://connect.medrxiv.org/relate/content/181)
 
 * [The early phase of the COVID-19 outbreak in Lombardy, Italy](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf)
-
-# Rest of the world
-
-## America
-### Canada 
-* [Data per patient](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310076601)
-
-## Asia
-### South Korea
-* [KCDC](http://ncov.mohw.go.kr/en/)
-
-## Europe 
-* [ECDC](https://www.ecdc.europa.eu/en/covid-19-pandemic)
-
-### Sweden
-* [Sweden](https://sweden.se/society/sweden-and-corona-in-brief/)
