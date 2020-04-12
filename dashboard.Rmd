@@ -63,6 +63,15 @@ Column {.tabset}
 * [Numeri affidabili per uscire dalle nebbie dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64813/numeri-affidabili-per-uscire-dalle-nebbie-dellepidemia/)
 * [Vite salvate dagli open data | *La Voce*](https://www.lavoce.info/archives/65002/vite-salvate-dagli-open-data/)
 
+###### Tamponi | Tests
+
+* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
+* [Perché non stiamo facendo più tamponi? | *Il Post*](https://www.ilpost.it/2020/04/04/coronavirus-tamponi-test-problemi-numero/)
+* [La Lombardia non fa tutti i tamponi che dovrebbe | *Il Post*](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/)
+* [La differenza tra il numero di tamponi e il numero delle persone testate | *Il Post*](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/)
+
+* [La strategia dei tamponi: criteri, ritardi, criticità in Italia e all’estero | *Valigia Blu*](https://www.valigiablu.it/tamponi-coronavirus/)
+
 ###### Contagi | Infected
 
 * [Quante sono davvero le persone contagiate? | *Il Post*](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/)
@@ -101,15 +110,6 @@ Column {.tabset}
 ##### Post-Lockdown
 
 * [Can Italy finally start the dance to control Coronavirus? | *Medium*](https://medium.com/network-science/can-italy-finally-start-the-dance-to-control-coronavirus-55c43ad0c7dd)
-
-### Testing
-
-* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
-* [Perché non stiamo facendo più tamponi? | *Il Post*](https://www.ilpost.it/2020/04/04/coronavirus-tamponi-test-problemi-numero/)
-* [La Lombardia non fa tutti i tamponi che dovrebbe | *Il Post*](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/)
-* [La differenza tra il numero di tamponi e il numero delle persone testate | *Il Post*](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/)
-
-* [La strategia dei tamponi: criteri, ritardi, criticità in Italia e all’estero | *Valigia Blu*](https://www.valigiablu.it/tamponi-coronavirus/)
 
 
 ### Analyses
