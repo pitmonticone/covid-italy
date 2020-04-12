@@ -1,0 +1,297 @@
+---
+title: "COVID-19 Italy" # Meta-dashboard
+#author: ""
+date: "`r Sys.Date()`"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns # or rows
+    # vertical_layout: fill # or scroll
+    # social: [ "twitter", "github", "menu" ]
+    # source_code: embed
+    vertical_layout: fill
+    theme: paper
+    social: [ "twitter", "github", "menu" ]
+    # source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(DT)
+library(knitr)
+library(tidyverse)
+```
+
+Sidebar {.sidebar}
+=====================================
+
+##### Brief History
+
+Il 31 gennaio 2020, il Consiglio dei Ministri dichiara lo stato di emergenza, per la durata di sei mesi, in conseguenza del rischio sanitario connesso all'infezione da Coronavirus.
+
+Al Capo del Dipartimento della Protezione Civile, Angelo Borrelli, è affidato il coordinamento degli interventi necessari a fronteggiare l'emergenza sul territorio nazionale.
+
+Le principali azioni coordinate dal Capo del Dipartimento sono volte al soccorso e all'assistenza della popolazione eventualmente interessata dal contagio, al potenziamento dei controlli nelle aree aeroportuali e portuali, in continuità con le misure urgenti già adottate dal Ministero della salute, al rientro in Italia dei cittadini che si trovano nei Paesi a rischio e al rimpatrio dei cittadini stranieri nei Paesi di origine esposti al rischio.
+
+##### Description
+
+A dashboard of (almost) all socially relevant references.
+
+##### Authors 
+
+* [Pietro Monticone](https://twitter.com/PietroMonticone)
+* [Riccardo Valperga](https://twitter.com/Riccard91650458)
+* [Francesco Furno](https://twitter.com/Furno_Francesco)
+
+
+
+
+Articles 
+=======================================================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Data Quality
+
+###### Sintesi | Syntheses
+* [I dati ufficiali sono un’illusione ottica | *F.Costa*](https://www.francescocosta.net/2020/03/19/dati-ufficiali-illusione-ottica/)
+* [Non è il momento di dire bugie | *F.Costa*](https://www.francescocosta.net/2020/04/02/non-e-il-momento-di-dire-bugie/)
+* [I dati ufficiali non avevano senso prima e non hanno senso adesso | *F.Costa*](https://www.francescocosta.net/2020/04/12/dati-ufficiali-senza-senso/)
+* [I dati confusi hanno le gambe corte | *L.Sofri*](https://www.wittgenstein.it/2020/04/12/i-dati-confusi-hanno-le-gambe-corte/)
+
+* [Facciamo chiarezza sulla contabilità dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64606/facciamo-chiarezza-sulla-contabilita-dellepidemia/)
+* [Numeri affidabili per uscire dalle nebbie dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64813/numeri-affidabili-per-uscire-dalle-nebbie-dellepidemia/)
+* [Vite salvate dagli open data | *La Voce*](https://www.lavoce.info/archives/65002/vite-salvate-dagli-open-data/)
+
+###### Contagi | Infected
+
+* [Quante sono davvero le persone contagiate? | *Il Post*](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/)
+
+
+###### Guariti | Recovered
+* [Coronavirus/ Cartabellotta (Fondazione Gimbe): «Sovrastimato il numero di guariti, serve chiarezza per orientare le scelte» | *Il Sole 24 Ore*](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH)
+* [I “guariti” annunciati dalla Protezione Civile ogni giorno non sono tutti guariti | *Il Post*](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/)
+
+###### Deceduti | Deceased
+
+* [Decessi da Covid, facciamo chiarezza sui dati Istat | *La Voce*](https://www.lavoce.info/archives/65042/decessi-da-covid-facciamo-chiarezza-sui-dati-istat/)
+* [Morti da coronavirus: calcoli sul campione inadatto | *La Voce*](https://www.lavoce.info/archives/65171/morti-da-coronavirus-calcoli-sul-campione-inadatto/)
+
+
+### Strategies
+
+##### Pre-Lockdown 
+
+##### Lockdown 
+
+###### **Italia | Italy**
+
+* [Il famoso modello italiano | *F.Costa*](https://www.francescocosta.net/2020/03/30/famoso-modello-italiano/)
+* [Italy’s Virus Shutdown Came Too Late. What Happens Now? | *The New York Times*](https://www.nytimes.com/interactive/2020/04/05/world/europe/italy-coronavirus-lockdown-reopen.html)
+* [Lessons from Italy’s Response to Coronavirus | *Harvard Business review*](https://hbr.org/2020/03/lessons-from-italys-response-to-coronavirus)
+
+* [Decreti Covid-19: in marzo evitati almeno 200mila ricoveri | *Università Ca'Foscari Venezia*](https://www.unive.it/pag/14024/?tx_news_pi1%5Bnews%5D=8829&cHash=d96192d9853e97c7b6b6e606e10b8ca4)
+
+###### **Corea del Sud | South Korea**
+
+* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
+* [In Corea del Sud si vota, addirittura | *Il Post*](https://www.ilpost.it/2020/04/10/elezioni-corea-del-sud-coronavirus/)
+* [Strategie antivirus, il modello sudcoreano ha funzionato | *La Voce*](https://www.lavoce.info/archives/64420/strategie-antivirus-il-modello-sudcoreano-ha-funzionato/)
+
+##### Post-Lockdown
+
+* [Can Italy finally start the dance to control Coronavirus? | *Medium*](https://medium.com/network-science/can-italy-finally-start-the-dance-to-control-coronavirus-55c43ad0c7dd)
+
+### Testing
+
+* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
+* [Perché non stiamo facendo più tamponi? | *Il Post*](https://www.ilpost.it/2020/04/04/coronavirus-tamponi-test-problemi-numero/)
+* [La Lombardia non fa tutti i tamponi che dovrebbe | *Il Post*](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/)
+* [La differenza tra il numero di tamponi e il numero delle persone testate | *Il Post*](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/)
+
+* [La strategia dei tamponi: criteri, ritardi, criticità in Italia e all’estero | *Valigia Blu*](https://www.valigiablu.it/tamponi-coronavirus/)
+
+
+### Analyses
+
+* [Coronavirus, guida per non farsi ingannare dai numeri: come arrivare preparati alla conferenza stampa delle 18 | *TPI*](https://www.tpi.it/cronaca/coronavirus-guida-numeri-conferenza-stampa-18-20200407581306/)
+
+* [Dov’è veramente il picco dei contagi? Analisi dei dati ISTAT sulla mortalità | *Medium*](https://medium.com/@pmeridian/dovè-veramente-il-picco-dei-contagi-analisi-dei-dati-istat-sulla-mortalità-26bfcab7f155)
+
+* [Decessi da Covid, come leggere i numeri | *La Voce*](https://www.lavoce.info/archives/65205/decessi-da-covid-come-leggere-i-numeri/)
+
+
+Data 
+=======================================================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Reports 
+
+#### **Istituzioni | Institutions** 
+
+##### *Istituto Superiore di Sanità | National Institute of Health*
+###### **Dati epidemiologici | Epidemiological data**
+
+* [Infografica giornaliera](https://www.epicentro.iss.it/coronavirus/bollettino/Infografica_9aprile%20ITA.pdf) | [Daily infographic](https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_9aprile%20ENG.pdf)
+* [Nota metodologica](https://www.epicentro.iss.it/coronavirus/bollettino/nota-metodologica-sorveglianza-COVID-19.pdf)
+* [Report bisettimanale](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf)
+* [Appendice con dettaglio regionale](https://www.epicentro.iss.it/coronavirus/bollettino/Bolletino-sorveglianza-integrata-COVID-19_6-aprile-2020_appendix.pdf)
+
+###### **Analisi sui decessi | Analysis on deaths**
+
+* [Infografica bisettimanale](https://www.epicentro.iss.it/coronavirus/sars-cov-2-decessi-italia) | [Biweekly infographic](https://www.epicentro.iss.it/en/coronavirus/sars-cov-2-analysis-of-deaths)
+
+###### **Indagine nelle residenze sanitarie assistenziali (RSA) | Study in nursing home care (NHC)**
+
+* [Rapporto RSA](https://www.epicentro.iss.it/coronavirus/pdf/sars-cov-2-survey-rsa-rapporto-2.pdf) 
+
+##### *Ministero degli Interni | Ministry of the Interior*
+* [Dati dei servizi di controllo](https://www.interno.gov.it/it/coronavirus-i-dati-dei-servizi-controllo)
+* [Modulo di autocertificazione](https://www.interno.gov.it/sites/default/files/allegati/nuovo_modello_autodichiarazione_26.03.2020_editabile.pdf)
+
+
+##### *Sistema di Sorveglianza Mortalità Giornaliera | Daily Mortality Surveillance System*
+* [Report](http://www.deplazio.net/images/stories/SISMG/SISMG_COVID19.pdf)
+* [Sintesi settimanale](http://www.salute.gov.it/portale/caldo/dettaglioContenutiCaldo.jsp?lingua=italiano&id=4547&area=emergenzaCaldo&menu=vuoto)
+
+#### **Istituti di Ricerca | Research Institutes **
+
+##### *Centre for Mathematical Modelling of Infectious Diseases (London)*
+
+* [Using a delay-adjusted case fatality ratio to estimate under-reporting](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html)
+* [Temporal variation in transmission during the COVID-19 outbreak in Italy](https://cmmid.github.io/topics/covid19/current-patterns-transmission/italy-time-varying-transmission.html)
+
+##### *Blavatnik School of Government (Oxford)*
+
+* [Oxford COVID-19 Government Response Tracker](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker)
+
+
+### Visualization
+
+#### **Dashboards**
+* [World Health Organization](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
+* [Dipartimento Protezione Civile](http://arcg.is/C1unv)
+* [Lab 24](https://lab24.ilsole24ore.com/coronavirus/)
+* [F.Mossotto](https://datastudio.google.com/u/0/reporting/91350339-2c97-49b5-92b8-965996530f00/page/RdlHB)
+
+#### **Analyses**
+* [Modello Fenologico Covid-19 Regioni Italia | *R.Pancrazi*](http://www.robertopancrazi.com/modello-logistico-covid-19-regioni-italia/)
+
+#### **Tamponi | Performed tests**
+
+<iframe src="https://ourworldindata.org/grapher/full-list-total-tests-for-covid-19?time=34..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-thousand?time=34..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/full-list-covid-19-tests-per-day?time=35..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/full-list-daily-covid-19-tests-per-thousand?time=35..79&country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+
+#### **Casi confermati | Confirmed cases**
+
+<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/total-and-daily-cases-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/daily-cases-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/daily-covid-cases-3-day-average?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br> 
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-daily-cases-epidemiological-trajectory" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+
+#### **Morti confermate | Confirmed deaths**
+
+<iframe src="https://ourworldindata.org/grapher/total-daily-covid-deaths?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/daily-deaths-covid-19?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-3-day-average?country=ITA" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<br>
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-deaths-since-5th-death" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/covid-confirmed-daily-deaths-epidemiological-trajectory" style="width: 700px; height: 600px; border: 0px none;"></iframe>
+
+### Documentation 
+
+#### Tamponi | Tests
+
+###### **Is there any data?**
+
+Yes. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/))**
+
+###### **Do numbers refer to ‘performed tests’ or ‘individuals tested’?**
+
+"Tamponi" ("swabs") refers to "performed tests": many patients are tested several times (even 5 times). **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
+
+Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
+
+"Guariti" ("recovered") in the official data refers not only to those actually recovered (i.e. who tested negative twice), but to all those discharged from hospital. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [IP](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/), [IS24O](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH), [YT](https://www.youtrend.it/2020/04/02/coronavirus-la-sovrastima-dei-casi-guariti/))**
+
+###### **Are negative results included? Are pending results included?**
+
+The total number of performed tests includes negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+
+The total number of performed tests includes those that are pending results. **(*medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701), [TW](https://twitter.com/PietroMonticone/status/1249011420404027392?s=20))**
+
+###### **Do the figures include all tests conducted in the country, or only some?**
+
+Figures reported by Italian authorities include all tests conducted in all working laboratories of the country. **(*medium-high confidence* | [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null))**
+
+###### **Are all regions and laboratories within a country submitting data on the same basis?**
+
+All Italian regions and laboratories submit testing data on the same basis (i.e. "performed tests"). **(*medium-high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+
+###### **What period do the published figures refer to?**
+
+The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to lab confirmation ($\Delta T_{symptoms}$) and from lab confirmation to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+
+The median delay between the symptom onset and the date of diagnosis is 
+
+* 3 days for the period 20/02-29/02 (calculated on 1,609 cases);
+* 5 days for the period 01/03-20/03 (37,060 cases);
+* 6 days from March 21/03-06/04 (27,637 cases). **(*high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+
+For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **(*high confidence* | [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+
+###### **Are there any issues that affect the comparability of the data over time?**
+
+There have been significant changes over time in the ministerial testing protocol. **(*high confidence* | [ISS](https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_8aprile%20ENG.pdf), [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null), [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+
+###### **What are the typical testing practices in the country?**
+
+Not all Italian regions follow the ministerial protocol of the central government, therefore there is significant regional heterogeneity in testing practices. **(*high confidence* | [IP](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/), [IP](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/), [IP](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/))**
+
+Up to 20-03 we could identify 3 classes of testing practices described by the following pseudocode: consider two patients $A$ and $B$ living in the same house in the region $R \in \{X, Y, Z\}$ such that
+
+* $A$ has no symptoms;
+* $B$ suffers from symptoms compatible with **COVID-19**;
+* $X$ respects the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Piedmont);
+* $Y$ makes more tests than those recommended by the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Veneto)
+* $Z$ makes fewer tests than those recommended by the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Lombardy). 
+
+If $A$ and $B$ live in $X$:
+
+  * ASL sends an ambulance team of health-workers who perform the test on him, but not to $A$ as he does not show any symptoms.
+  * $A$ ends up in isolation, since in contact with a person who is definitely infected.
+
+If $A$ and $B$ live in $Y$:
+
+  * Test to $B$ 
+  * Test to $A$ 
+  * Test to the first and second neighbors (e.g. parents, friends, condominiums) in the hope of finding and isolating all the positives.
+
+If $A$ and $B$ live in $Z$:
+
+  * No test to $B$ (unless $B$ needs hospital care)
+  * No test to $A$
+  * No isolation from $A$ because there is no evidence that $B$ is positive despite its symptoms.
+
+
+###### **Might any of the information above be lost in translation?**
+
+Many important documents released by official sources are translated in English. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
+
+#### Casi confermati | Confirmed cases 
+
+
+#### Casi guariti | Recovered cases 
+
+#### Casi deceduti | Deceased cases 

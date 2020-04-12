@@ -57,6 +57,7 @@ Column {.tabset}
 * [I dati ufficiali sono un’illusione ottica | *F.Costa*](https://www.francescocosta.net/2020/03/19/dati-ufficiali-illusione-ottica/)
 * [Non è il momento di dire bugie | *F.Costa*](https://www.francescocosta.net/2020/04/02/non-e-il-momento-di-dire-bugie/)
 * [I dati ufficiali non avevano senso prima e non hanno senso adesso | *F.Costa*](https://www.francescocosta.net/2020/04/12/dati-ufficiali-senza-senso/)
+* [I dati confusi hanno le gambe corte | *L.Sofri*](https://www.wittgenstein.it/2020/04/12/i-dati-confusi-hanno-le-gambe-corte/)
 
 * [Facciamo chiarezza sulla contabilità dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64606/facciamo-chiarezza-sulla-contabilita-dellepidemia/)
 * [Numeri affidabili per uscire dalle nebbie dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64813/numeri-affidabili-per-uscire-dalle-nebbie-dellepidemia/)
@@ -174,6 +175,9 @@ Column {.tabset}
 * [Dipartimento Protezione Civile](http://arcg.is/C1unv)
 * [Lab 24](https://lab24.ilsole24ore.com/coronavirus/)
 * [F.Mossotto](https://datastudio.google.com/u/0/reporting/91350339-2c97-49b5-92b8-965996530f00/page/RdlHB)
+
+#### **Analyses**
+* [Modello Fenologico Covid-19 Regioni Italia | *R.Pancrazi*](http://www.robertopancrazi.com/modello-logistico-covid-19-regioni-italia/)
 
 #### **Tamponi | Performed tests**
 
