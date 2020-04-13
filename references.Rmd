@@ -104,6 +104,7 @@ knitr::opts_chunk$set(
 * [Coronavirus, guida per non farsi ingannare dai numeri: come arrivare preparati alla conferenza stampa delle 18 | *TPI*](https://www.tpi.it/cronaca/coronavirus-guida-numeri-conferenza-stampa-18-20200407581306/)
 
 * [Dov’è veramente il picco dei contagi? Analisi dei dati ISTAT sulla mortalità | *Medium*](https://medium.com/@pmeridian/dovè-veramente-il-picco-dei-contagi-analisi-dei-dati-istat-sulla-mortalità-26bfcab7f155)
+* [The Growth Rate of COVID-19 | *Medium*](https://medium.com/@jsteinhardt/the-growth-rate-of-covid-19-74944fc1d0f6)
 
 * [Decessi da Covid, come leggere i numeri | *La Voce*](https://www.lavoce.info/archives/65205/decessi-da-covid-come-leggere-i-numeri/)
 

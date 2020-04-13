@@ -36,11 +36,16 @@ Le principali azioni coordinate dal Capo del Dipartimento sono volte al soccorso
 
 A dashboard of (almost) all socially relevant references.
 
-##### Authors 
+##### Creators 
 
 * [Pietro Monticone](https://twitter.com/PietroMonticone)
 * [Riccardo Valperga](https://twitter.com/Riccard91650458)
+
+##### Collaborators
+
 * [Francesco Furno](https://twitter.com/Furno_Francesco)
+* [Paolo Beria](https://twitter.com/beriapaolo)
+
 
 
 

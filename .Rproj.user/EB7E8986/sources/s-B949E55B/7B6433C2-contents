@@ -1,0 +1,153 @@
+---
+title: "COVID-19: General References"
+#subtitle: "Notes"
+author: "**P. Monticone (a) | R. Valperga (b) | F. Furno (c)**"
+date: "`r Sys.Date()`, (**a**) *Turin University* | (**b**) *Imperial College London* | (**c**) *New York University*"
+output:
+ prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: true
+fontsize: 11pt
+bibliography: bibliography.bibtex # https://doi2bib.org
+biblio-style: apalike
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+**Things to do**
+
+1. mettere una scritta all'inizio dove invitiamo la gente a segnalare le loro analisi, cosi loro le mandano a noi
+2. mettere le date negli articoli
+3. cercare il modo di sintetizzare le info... gia' cosi' e' fatica, c'e' troppa roba. 
+
+# Articles 
+### Data Quality
+
+###### Sintesi | Syntheses
+* [I dati ufficiali sono un’illusione ottica | *F.Costa*](https://www.francescocosta.net/2020/03/19/dati-ufficiali-illusione-ottica/)
+* [Non è il momento di dire bugie | *F.Costa*](https://www.francescocosta.net/2020/04/02/non-e-il-momento-di-dire-bugie/)
+* [I dati ufficiali non avevano senso prima e non hanno senso adesso | *F.Costa*](https://www.francescocosta.net/2020/04/12/dati-ufficiali-senza-senso/)
+* [I dati confusi hanno le gambe corte | *L.Sofri*](https://www.wittgenstein.it/2020/04/12/i-dati-confusi-hanno-le-gambe-corte/)
+
+* [Facciamo chiarezza sulla contabilità dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64606/facciamo-chiarezza-sulla-contabilita-dellepidemia/)
+* [Numeri affidabili per uscire dalle nebbie dell’epidemia | *La Voce*](https://www.lavoce.info/archives/64813/numeri-affidabili-per-uscire-dalle-nebbie-dellepidemia/)
+* [Vite salvate dagli open data | *La Voce*](https://www.lavoce.info/archives/65002/vite-salvate-dagli-open-data/)
+
+###### Tamponi | Tests
+
+* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
+* [Perché non stiamo facendo più tamponi? | *Il Post*](https://www.ilpost.it/2020/04/04/coronavirus-tamponi-test-problemi-numero/)
+* [La Lombardia non fa tutti i tamponi che dovrebbe | *Il Post*](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/)
+* [La differenza tra il numero di tamponi e il numero delle persone testate | *Il Post*](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/)
+
+* [La strategia dei tamponi: criteri, ritardi, criticità in Italia e all’estero | *Valigia Blu*](https://www.valigiablu.it/tamponi-coronavirus/)
+
+###### Contagi | Infected
+
+* [Quante sono davvero le persone contagiate? | *Il Post*](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/)
+
+
+###### Guariti | Recovered
+* [Coronavirus/ Cartabellotta (Fondazione Gimbe): «Sovrastimato il numero di guariti, serve chiarezza per orientare le scelte» | *Il Sole 24 Ore*](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH)
+* [I “guariti” annunciati dalla Protezione Civile ogni giorno non sono tutti guariti | *Il Post*](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/)
+
+###### Deceduti | Deceased
+
+* [Decessi da Covid, facciamo chiarezza sui dati Istat | *La Voce*](https://www.lavoce.info/archives/65042/decessi-da-covid-facciamo-chiarezza-sui-dati-istat/)
+* [Morti da coronavirus: calcoli sul campione inadatto | *La Voce*](https://www.lavoce.info/archives/65171/morti-da-coronavirus-calcoli-sul-campione-inadatto/)
+
+
+### Strategies
+
+##### Pre-Lockdown 
+
+##### Lockdown 
+
+###### **Italia | Italy**
+
+* [Il famoso modello italiano | *F.Costa*](https://www.francescocosta.net/2020/03/30/famoso-modello-italiano/)
+* [Italy’s Virus Shutdown Came Too Late. What Happens Now? | *The New York Times*](https://www.nytimes.com/interactive/2020/04/05/world/europe/italy-coronavirus-lockdown-reopen.html)
+* [Lessons from Italy’s Response to Coronavirus | *Harvard Business review*](https://hbr.org/2020/03/lessons-from-italys-response-to-coronavirus)
+
+* [Decreti Covid-19: in marzo evitati almeno 200mila ricoveri | *Università Ca'Foscari Venezia*](https://www.unive.it/pag/14024/?tx_news_pi1%5Bnews%5D=8829&cHash=d96192d9853e97c7b6b6e606e10b8ca4)
+
+###### **Corea del Sud | South Korea**
+
+* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
+* [In Corea del Sud si vota, addirittura | *Il Post*](https://www.ilpost.it/2020/04/10/elezioni-corea-del-sud-coronavirus/)
+* [Strategie antivirus, il modello sudcoreano ha funzionato | *La Voce*](https://www.lavoce.info/archives/64420/strategie-antivirus-il-modello-sudcoreano-ha-funzionato/)
+
+##### Post-Lockdown
+
+* [Can Italy finally start the dance to control Coronavirus? | *Medium*](https://medium.com/network-science/can-italy-finally-start-the-dance-to-control-coronavirus-55c43ad0c7dd)
+
+### Testing
+
+* [Il metodo della Corea del Sud | *Il Post*](https://www.ilpost.it/2020/04/05/coreano-del-sud-test-pandemia/)
+* [Perché non stiamo facendo più tamponi? | *Il Post*](https://www.ilpost.it/2020/04/04/coronavirus-tamponi-test-problemi-numero/)
+* [La Lombardia non fa tutti i tamponi che dovrebbe | *Il Post*](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/)
+* [La differenza tra il numero di tamponi e il numero delle persone testate | *Il Post*](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/)
+
+* [La strategia dei tamponi: criteri, ritardi, criticità in Italia e all’estero | *Valigia Blu*](https://www.valigiablu.it/tamponi-coronavirus/)
+
+
+### Analyses
+
+* [Coronavirus, guida per non farsi ingannare dai numeri: come arrivare preparati alla conferenza stampa delle 18 | *TPI*](https://www.tpi.it/cronaca/coronavirus-guida-numeri-conferenza-stampa-18-20200407581306/)
+
+* [Dov’è veramente il picco dei contagi? Analisi dei dati ISTAT sulla mortalità | *Medium*](https://medium.com/@pmeridian/dovè-veramente-il-picco-dei-contagi-analisi-dei-dati-istat-sulla-mortalità-26bfcab7f155)
+* [The Growth Rate of COVID-19 | *Medium*](https://medium.com/@jsteinhardt/the-growth-rate-of-covid-19-74944fc1d0f6)
+
+* [Decessi da Covid, come leggere i numeri | *La Voce*](https://www.lavoce.info/archives/65205/decessi-da-covid-come-leggere-i-numeri/)
+
+
+# Data  
+
+### Data Visualization
+* [WHO](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
+* [PC](http://arcg.is/C1unv)
+* [Google](https://datastudio.google.com/u/0/reporting/91350339-2c97-49b5-92b8-965996530f00/page/RdlHB)
+* [Lab24](https://lab24.ilsole24ore.com/coronavirus/)
+* [leoniDEV](https://covid19-ita.leonidev.com)
+* [OWID](https://ourworldindata.org/coronavirus)
+* [FT](https://www.ft.com/content/a26fbf7e-48f8-11ea-aeb3-955839e06441)
+
+### Protezione Civile 
+* [Github repository](https://github.com/pcm-dpc/COVID-19)
+* [Dashboard (Desktop)](http://arcg.is/C1unv)
+* [Dashboard (Mobile)](http://arcg.is/081a51)
+
+### Istituto Superiore di Sanità 
+* [Piano nazionale per pandemia influenzale](https://www.epicentro.iss.it/focus/flu_aviaria/pdf/pianopandemico.pdf)
+* [Sythesis](https://www.epicentro.iss.it/coronavirus/)
+
+### Ministero della Salute 
+* [Piano nazionale per pandemia influenzale](http://www.salute.gov.it/imgs/C_17_pubblicazioni_501_allegato.pdf)
+
+1. [Testing protocol, 27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null)
+1. [Testing protocol, 09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf)
+1. [Testing protocol, 03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null)
+
+### Istat
+
+* [L’andamento dei decessi del 2020. Dati anticipatori sulla base del sistema ANPR](https://www.istat.it/it/archivio/240401)
+
+
+# People
+
+* [Francesco Furno](https://www.francescofurno.com/emergenza-covid)
+* [Alessia Paccagnini](https://sites.google.com/site/alessiapaccagnini/covid19?authuser=0)
+
+# Literature
+
+* [Preprints from medRxiv and bioRxiv](https://connect.medrxiv.org/relate/content/181)
+
+* [The early phase of the COVID-19 outbreak in Lombardy, Italy](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf)
