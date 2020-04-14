@@ -6,3 +6,7 @@ Read the [document](https://pitmonticone.github.io/covid-italy/owid-testing-ital
 
 Explore the [dashboard](https://pitmonticone.github.io/covid-italy/dashboard.html).
 
+## A simple SIR model 
+
+* [Julia script](https://pitmonticone.github.io/covid-italy/models/sir.jl)
+* [Jupyter Notebook](https://pitmonticone.github.io/covid-italy/models/sir.ipynb)
