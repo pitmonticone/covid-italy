@@ -9,4 +9,4 @@ Explore the [dashboard](https://pitmonticone.github.io/covid-italy/dashboard.htm
 ## A simple SIR model 
 
 * [Julia script](https://github.com/pitmonticone/covid-italy/blob/master/models/sir.jl)
-* [Jupyter Notebook](https://github.com/pitmonticone/covid-italy/blob/master/models/sir.ipynb)
+* [Jupyter notebook](https://github.com/pitmonticone/covid-italy/blob/master/models/sir.ipynb)
