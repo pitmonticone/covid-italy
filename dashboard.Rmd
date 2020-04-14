@@ -232,9 +232,32 @@ Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive
 
 ###### **Are negative results included? Are pending results included?**
 
-The total number of performed tests includes negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+In Italy "tamponi" include negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
-The total number of performed tests includes those that are pending results. **(*medium confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1248296225490821120?s=20), [RP](https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2020-03/20marzo-21febbraio.pdf), [RL](https://lispa.maps.arcgis.com/apps/opsdashboard/index.html#/637ec3dc28ec4ea591cc5c724f127701), [TW](https://twitter.com/PietroMonticone/status/1249011420404027392?s=20))**
+In Italy "tamponi" *should include* those that are pending results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1249011420404027392?s=20))** <br> Unfortunately this is not true for all regions:
+
+  * In **Valle d'Aosta** "tamponi" are divided as follows
+    * those analysed in-region *exclude* those that are pending results
+    * those analysed out-of-region *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250137178149183493?s=20))**
+  * In **Piemonte** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249012877282983943?s=20))**
+  * Documentation for **Liguria** is not available yet.
+  * In **Lombardia** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249106827083726849?s=20))**
+  * Documentation for **Trentino-Alto Adige** is not available yet. 
+  * In **Veneto** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249755809686355968?s=20))**
+  * Documentation for **Friuli-Venezia Giulia** is not available yet.
+  * In **Emilia Romagna** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250111453782249475?s=20))**
+  * Documentation for **Toscana** is not available yet.
+  * In **Umbria** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250136459862069253?s=20), [UDPC](https://github.com/Regione-Umbria/coronavirus))**
+  * Documentation for **Marche** is not available yet.
+  * Documentation for **Lazio** is not available yet.
+  * Documentation for **Abruzzo** is not available yet.
+  * Documentation for **Molise** is not available yet.
+  * In **Campania** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249747835685343233?s=20))**
+  * Documentation for **Puglia** is not available yet.
+  * In **Basilicata** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249379417043931137?s=20))**
+  * Documentation for **Calabria** is not available yet.
+  * Documentation for **Sicilia** is not available yet.
+  * Documentation for **Sardegna** is not available yet.
 
 ###### **Do the figures include all tests conducted in the country, or only some?**
 
