@@ -1,0 +1,134 @@
+---
+title: "Documentation for COVID-19 Testing Data in Italy"
+#subtitle: "Answers to Our World in Data"
+author: "**Pietro Monticone (a) | Riccardo Valperga (b)**"
+date: "`r Sys.Date()`, (**a**) *Turin University* | (**b**) *Imperial College London*"
+output:
+ prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: true
+fontsize: 11pt
+bibliography: bibliography.bibtex # https://doi2bib.org
+biblio-style: apalike
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+## **Checklist**
+
+#### **Is there any data?**
+
+Yes. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/))**
+
+#### **Do numbers refer to ‘performed tests’ or ‘individuals tested’?**
+
+In **Italy** (excluding Marche) "tamponi" ("swabs") refers to "performed tests": many patients are tested several times (even 5 times). **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
+
+In **Marche** 
+
+* "tamponi" refers to "individuals tested" up to 13-04 (excluded); **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250342505180086272?s=20))**
+* "tamponi" refers to "performed tests" from 13-04 (included). **(*high confidence* | [PM1](https://twitter.com/PietroMonticone/status/1250807637836521473?s=20), [PM2](https://twitter.com/PietroMonticone/status/1250811022023307266?s=20), [IP](https://www.ilpost.it/2020/04/14/coronavirus-marche-tamponi-numeri-sbagliati/))**
+
+Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
+
+"Guariti" ("recovered") in the official data refers not only to those actually recovered (i.e. who tested negative twice), but to all those discharged from hospital. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [IP](https://www.ilpost.it/2020/04/02/guariti-coronavirus-protezione-civile/), [IS24O](https://www.sanita24.ilsole24ore.com/art/aziende-e-regioni/2020-04-02/coronavirus-cartabellotta-fondazione-gimbe-sovrastimato-numero-guariti-rischi-serve-chiarezza-orientare-scelte-103855.php?uuid=ADkV6eH), [YT](https://www.youtrend.it/2020/04/02/coronavirus-la-sovrastima-dei-casi-guariti/))**
+
+#### **Are negative results included? Are pending results included?**
+
+In Italy "tamponi" *include* negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+
+In Italy "tamponi" *should include* those that are pending results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1249011420404027392?s=20))** <br> Unfortunately this is not true for all regions:
+
+  * In **Valle d'Aosta** "tamponi" are divided as follows
+    * those analysed in-region *exclude* those that are pending results
+    * those analysed out-of-region *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250137178149183493?s=20))**
+  * In **Piemonte** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249012877282983943?s=20))**
+  * Documentation for **Liguria** is not available yet.
+  * In **Lombardia** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249106827083726849?s=20))**
+  * Documentation for **Trentino-Alto Adige** is not available yet. 
+  * In **Veneto** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249755809686355968?s=20))**
+  * Documentation for **Friuli-Venezia Giulia** is not available yet.
+  * In **Emilia Romagna** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250111453782249475?s=20))**
+  * Documentation for **Toscana** is not available yet.
+  * In **Umbria** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250136459862069253?s=20), [UDPC](https://github.com/Regione-Umbria/coronavirus))**
+  * In **Marche** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250342505180086272?s=20))**
+  * Documentation for **Lazio** is not available yet.
+  * Documentation for **Abruzzo** is not available yet.
+  * Documentation for **Molise** is not available yet.
+  * In **Campania** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249747835685343233?s=20))**
+  * Documentation for **Puglia** is not available yet.
+  * In **Basilicata** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249379417043931137?s=20))**
+  * Documentation for **Calabria** is not available yet.
+  * Documentation for **Sicilia** is not available yet.
+  * Documentation for **Sardegna** is not available yet.
+
+#### **Do the figures include all tests conducted in the country, or only some?**
+
+Figures reported by Italian authorities include all tests conducted in all working laboratories of the country. **(*medium-high confidence* | [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null))**
+
+#### **Are all regions and laboratories within a country submitting data on the same basis?**
+
+All Italian regions and laboratories submit testing data on the same basis (i.e. "performed tests"). **(*medium-high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+
+#### **What period do the published figures refer to?**
+
+The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to the date of diagnosis ($\Delta T_{symptoms}$) and from the date of diagnosis to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+
+The median delay between the symptom onset and the date of diagnosis is 
+
+* 3 days for the period 20/02-29/02 (calculated on 1,609 cases);
+* 5 days for the period 01/03-20/03 (37,060 cases);
+* 6 days from March 21/03-06/04 (27,637 cases). **(*high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+
+For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **( *high confidence* | [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+
+#### **Are there any issues that affect the comparability of the data over time?**
+
+There have been significant changes over time in the ministerial testing protocol. **(*high confidence* | [ISS](https://www.epicentro.iss.it/en/coronavirus/bollettino/Infografica_8aprile%20ENG.pdf), [MTP27-02](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73444&parte=1%20&serie=null), [MTP09-03](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf), [MTP03-04](http://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=2020&codLeg=73799&parte=1%20&serie=null), [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+
+#### **What are the typical testing practices in the country?**
+
+Not all Italian regions follow the ministerial protocol of the central government, therefore there is significant regional heterogeneity in testing practices. **(*high confidence* | [IP](https://www.ilpost.it/2020/03/31/contagi-coronavirus-imperial-college-london/), [IP](https://www.ilpost.it/2020/03/27/tamponi-lombardia-fontana-coronavirus/), [IP](https://www.ilpost.it/2020/03/26/coronavirus-tamponi-eseguiti-persone-testate/))**
+
+Up to 20-03 we could identify 3 classes of testing practices described by the following pseudocode: consider two patients $A$ and $B$ living in the same house in the region $R \in \{X, Y, Z\}$ such that
+
+* $A$ has no symptoms;
+* $B$ suffers from symptoms compatible with **COVID-19**;
+* $X$ respects the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Piedmont);
+* $Y$ makes more tests than those recommended by the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Veneto)
+* $Z$ makes fewer tests than those recommended by the [ministerial document](https://www.fnopi.it/wp-content/uploads/2020/03/Circolare_9_marzo_2020.pdf) dated 9-03 (e.g. Lombardy). 
+
+If $A$ and $B$ live in $X$:
+
+  * ASL sends an ambulance team of health-workers who perform the test on him, but not to $A$ as he does not show any symptoms.
+  * $A$ ends up in isolation, since in contact with a person who is definitely infected.
+
+If $A$ and $B$ live in $Y$:
+
+  * Test to $B$ 
+  * Test to $A$ 
+  * Test to the first and second neighbors (e.g. parents, friends, condominiums) in the hope of finding and isolating all the positives.
+
+If $A$ and $B$ live in $Z$:
+
+  * No test to $B$ (unless $B$ needs hospital care)
+  * No test to $A$
+  * No isolation from $A$ because there is no evidence that $B$ is positive despite its symptoms.
+
+
+#### **Might any of the information above be lost in translation?**
+
+Many important documents released by official sources are translated in English. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/), [MDS](http://www.salute.gov.it/portale/home.html))**
+
+## **Contacts** 
+
+* Pietro Monticone ([Twitter](https://twitter.com/PietroMonticone), [Github](https://github.com/pitmonticone))
+* Riccardo Valperga ([Twitter](https://twitter.com/Riccard91650458), [Github](https://github.com/Ricvalp))

@@ -226,7 +226,10 @@ Yes. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](ht
 
 In **Italy** (excluding Marche) "tamponi" ("swabs") refers to "performed tests": many patients are tested several times (even 5 times). **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
 
-In **Marche** "tamponi" refer to "individuals tested". **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250342505180086272?s=20))**
+In **Marche** 
+
+* "tamponi" refers to "individuals tested" up to 13-04 (excluded); **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250342505180086272?s=20))**
+* "tamponi" refers to "performed tests" from 13-04 (included). **(*high confidence* | [PM1](https://twitter.com/PietroMonticone/status/1250807637836521473?s=20), [PM2](https://twitter.com/PietroMonticone/status/1250811022023307266?s=20), [IP](https://www.ilpost.it/2020/04/14/coronavirus-marche-tamponi-numeri-sbagliati/))**
 
 Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
 
@@ -234,7 +237,7 @@ Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive
 
 ###### **Are negative results included? Are pending results included?**
 
-In Italy "tamponi" include negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
+In Italy "tamponi" *include* negative test results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
 
 In Italy "tamponi" *should include* those that are pending results. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [PM](https://twitter.com/PietroMonticone/status/1249011420404027392?s=20))** <br> Unfortunately this is not true for all regions:
 

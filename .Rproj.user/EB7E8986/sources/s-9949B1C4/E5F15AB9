@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586462940134.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2481971339",
+    "id" : "E5F15AB9",
+    "lastKnownWriteTime" : 1587052901,
+    "last_content_update" : 1587052901926,
+    "path" : "~/github/covid-italy/owid-testing-italy.Rmd",
+    "project_path" : "owid-testing-italy.Rmd",
+    "properties" : {
+        "cursorPosition" : "38,0",
+        "scrollLine" : "33",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
