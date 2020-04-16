@@ -68,7 +68,7 @@ In Italy "tamponi" *should include* those that are pending results. **(*high con
   * In **Basilicata** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249379417043931137?s=20))**
   * Documentation for **Calabria** is not available yet.
   * Documentation for **Sicilia** is not available yet.
-  * Documentation for **Sardegna** is not available yet.
+  * In **Sardegna** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250827560965091335?s=20))**
 
 #### **Do the figures include all tests conducted in the country, or only some?**
 
