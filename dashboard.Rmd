@@ -224,12 +224,14 @@ Testing data is publicly available. **(*high confidence* | [DPC](https://github.
 
 ###### **Do numbers refer to ‘performed tests’ or ‘individuals tested’?**
 
-In **Italy** (excluding Marche) "tamponi" ("swabs") refers to "performed tests": many patients are tested several times (even 5 times). **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
+In **Italy** (excluding Marche) "tamponi" ("swabs") refers to "performed tests": several patients are tested more than once. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
 
 In **Marche** 
 
 * "tamponi" refers to "individuals tested" up to 13-04 (excluded); **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250342505180086272?s=20))**
 * "tamponi" refers to "performed tests" from 13-04 (included). **(*high confidence* | [PM1](https://twitter.com/PietroMonticone/status/1250807637836521473?s=20), [PM2](https://twitter.com/PietroMonticone/status/1250811022023307266?s=20), [IP](https://www.ilpost.it/2020/04/14/coronavirus-marche-tamponi-numeri-sbagliati/))**
+
+National and regional data on "individuals tested" ("casi testati") has been publicly available since 19-04. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/04/21/coronavirus-tamponi-ecco-quante-persone-sono-state-testate-in-ogni-regione/))**
 
 Patients who are recovered from COVID-19 are tested at least 3 times: 1 positive and 2 negative. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [YT](https://www.youtrend.it/2020/03/25/coronavirus-il-rebus-dei-tamponi-multipli/))**
 
