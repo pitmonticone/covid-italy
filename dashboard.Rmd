@@ -220,7 +220,7 @@ Column {.tabset}
 
 ###### **Is there any data?**
 
-Yes. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/))**
+Testing data is publicly available. **(*high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19), [ISS](https://www.epicentro.iss.it/coronavirus/))**
 
 ###### **Do numbers refer to ‘performed tests’ or ‘individuals tested’?**
 
