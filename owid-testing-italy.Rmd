@@ -59,7 +59,7 @@ In Italy "tamponi" *should include* those that are pending results. **(*high con
   * In **Veneto** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1249755809686355968?s=20))**
   * Documentation for **Friuli-Venezia Giulia** is not available yet.
   * In **Emilia Romagna** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250111453782249475?s=20))**
-  * Documentation for **Toscana** is not available yet.
+  * In **Toscana** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1254391540589506560?s=20))**
   * In **Umbria** "tamponi" *include* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250136459862069253?s=20), [UDPC](https://github.com/Regione-Umbria/coronavirus))**
   * In **Marche** "tamponi" *exclude* those that are pending results. **(*high confidence* | [PM](https://twitter.com/PietroMonticone/status/1250342505180086272?s=20))**
   * Documentation for **Lazio** is not available yet.
