@@ -78,19 +78,18 @@ Figures reported by Italian authorities include all tests conducted in all worki
 
 #### **Are all regions and laboratories within a country submitting data on the same basis?**
 
-All Italian regions and laboratories submit testing data on the same basis (i.e. "performed tests"). **(*medium-high confidence* | [DPC](https://github.com/pcm-dpc/COVID-19))**
-
-#### **What period do the published figures refer to?**
-
-The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to the date of diagnosis ($\Delta T_{symptoms}$) and from the date of diagnosis to official database update ($\Delta T_{lab}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+The figures published at a given date attempt to include all tests conducted up to that date, but significant and variable delays are present: both from symptom onset to diagnosis ($T_{s,d}$) and from diagnosis to official notification ($T_{d,n}$). **(*medium-high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
 
 The median delay between the symptom onset and the date of diagnosis is 
 
 * 3 days for the period 20/02-29/02 (calculated on 1,609 cases);
 * 5 days for the period 01/03-20/03 (37,060 cases);
-* 6 days from March 21/03-06/04 (27,637 cases). **(*high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
+* 7 days for the period 21/03-10/04 (27,637 cases); 
+* 6 days for the period 11/04-23/04 (6,299 cases). **(*high confidence* | [ISS](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_6-aprile-2020.pdf))**
 
-For example, in Lombardy $\Delta T_{symptoms}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $\Delta T_{lab} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **( *high confidence* | [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
+In **Italy** the average delays are $\langle T_{s,d} \rangle = 5.5 \text{ days }$ and $\langle T_{d,n} \rangle = 7 \text{ days }$. **(*high confidence* | [ISS+FBK 1](https://youtu.be/0ZUlIOuJKjI?t=226), [ISS+FBK 2](https://www.medrxiv.org/content/10.1101/2020.04.08.20056861v1))**
+
+In **Lombardy** the delays are $T_{s,d}= 7.3 \text{ days } (1,20)_{95\% \text{CI}}$ and $T_{d,n} = 3.6 \text{ days } (1,10)_{95\% \text{CI}}$. **(*high confidence* | [AXV](https://arxiv.org/ftp/arxiv/papers/2003/2003.09320.pdf))**
 
 #### **Are there any issues that affect the comparability of the data over time?**
 
